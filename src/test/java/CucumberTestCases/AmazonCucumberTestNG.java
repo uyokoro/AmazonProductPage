@@ -3,7 +3,6 @@ package CucumberTestCases;
 import java.time.Duration;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.asserts.SoftAssert;
 import PageObject.AmazonPageObjects;
 import io.cucumber.java.After;
@@ -17,7 +16,6 @@ public class AmazonCucumberTestNG {
 	public static WebDriver driver;
 	public static AmazonPageObjects amazonPageObjects;
 	static SoftAssert softAssert = new SoftAssert();
-	public WebDriverWait wait;
 	public String PagePrice;
 
 	@Before
