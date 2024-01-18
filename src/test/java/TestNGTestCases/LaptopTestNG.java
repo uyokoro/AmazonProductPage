@@ -61,6 +61,8 @@ public class LaptopTestNG {
 		driver = new ChromeDriver();
 		driver.get("https://www.amazon.co.uk/");
 		driver.manage().window().maximize();
+		
+		//Enter CAPTCHA - for Next Test Step to Run
 	}
 
 	@AfterTest

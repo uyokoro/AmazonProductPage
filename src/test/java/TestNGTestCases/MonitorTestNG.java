@@ -63,6 +63,8 @@ public class MonitorTestNG {
 		driver.get("https://www.amazon.co.uk/");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		
+		//Enter CAPTCHA - for Next Test Step to Run
 	}
 
 	@AfterTest

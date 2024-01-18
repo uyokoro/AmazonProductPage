@@ -25,6 +25,8 @@ public class AmazonCucumberTestNG {
 		driver = new ChromeDriver();
 		amazonPageObjects = new AmazonPageObjects(driver);
 		driver.manage().window().maximize();
+		
+		//Enter CAPTCHA - for Next Test Step to Run
 
 	}
 
